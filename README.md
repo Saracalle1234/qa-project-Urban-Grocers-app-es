@@ -1,20 +1,26 @@
-# Proyecto Urban Grocers
+🛒 Urban Grocers – Automatización de pruebas API
 
-Para ejecutar el proyecto se necesita 
-clonar el repositorio
-git clone git@github.com:Saracalle1234/qa-project-Urban-Grocers-app-es.git
-cd qa-project-Urban-Grocers-app-es
+📌 Descripción del proyecto
+Urban Grocers es una aplicación de comercio electrónico enfocada en la venta de productos comestibles mediante kits prediseñados o personalizados. Este proyecto se centra en la automatización de pruebas para validar el correcto funcionamiento del endpoint de creación de kits, con énfasis en el campo “nombre”.
 
-qa-project-urban-grocers-app-es/
-Configuracion.py, Contiene URL y rutas API
-Create_kit_name_kit_test.py, Pruebas para crear kits
-data.py, Datos de prueba y headers
-sender_stand_request.py, Funciones para consumir la API
-.venv/, Entorno virtual
+🧩 Problema que resuelve
+El objetivo principal es garantizar que el campo “nombre” cumpla con los criterios de validación establecidos, asegurando la integridad de los datos y la estabilidad del sistema ante entradas válidas e inválidas. Esto permite detectar errores de forma temprana y mejorar la calidad del backend.
 
-Tecnologias utilizadas
-Python
-Pytest
-Requests
-Venv
-Github
+🛠️ Tecnologías utilizadas
+Python - Pytest - Requests - Venv - GitHub
+
+▶️ Cómo ejecutar el proyecto
+
+Clona el repositorio:
+git clone https://github.com/Saracalle1234/qa-project-Urban-Grocers-app-es.git
+
+Crea y activa un entorno virtual:
+python -m venv venv  
+source venv/bin/activate  # En Linux/Mac  
+venv\Scripts\activate      # En Windows
+
+Instala las dependencias:
+pip install -r requirements.txt
+
+Ejecuta las pruebas:
+pytest Create_kit_name_kit_test.py
